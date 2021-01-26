@@ -13,4 +13,5 @@ export default {
     '.+\\.ts$': 'ts-jest',
   },
   testMatch: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
+  watchPathIgnorePatterns: ['globalConfig'],
 };
