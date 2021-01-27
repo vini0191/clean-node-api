@@ -5,6 +5,7 @@ export default {
     '!<rootDir>/src/presentation/protocols/index.ts',
     '!<rootDir>/src/presentation/controllers/signup/signup-protocols.ts',
     '!<rootDir>/src/data/usecases/add-account/db-add-account-protocols.ts',
+    '!<rootDir>/src/main/**',
   ],
   coverageDirectory: 'coverage',
   testEnvironment: 'node',
